@@ -1,3 +1,8 @@
+server:
+  port: 8080
 spring:
   application:
-    name: sport-link-backend
+    name: board-games-meet-backend
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
